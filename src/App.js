@@ -4,7 +4,6 @@ import Footer from "./components/footer";
 import NavbarBottom from "./components/navbarBottom";
 import NavbarTop from "./components/navbarTop";
 import logo from './images/logos/logo.png';
-import './App.css';
 import Main from "./pages/main";
 import Wallet from "./pages/wallet";
 import Login from "./pages/login";

@@ -2,10 +2,10 @@ import React from "react";
 import '../login.css';
 import { Button, Form, Col, Row } from "react-bootstrap";
 
-
 const Login = () => {
   return (
     <>
+    <div id="body">
       <Form>
         <Form.Group as={Row} className="mb-3" controlId="formPlaintextEmailAddress">
             <Col sm="10">
@@ -22,7 +22,7 @@ const Login = () => {
         <Button size="lg">Login</Button>
         <Button  size="lg">Sign Up</Button>
     </div>
-
+    </div>
              </>
     )
 }
