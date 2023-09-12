@@ -1,0 +1,32 @@
+.frame {
+    align-items: center;
+    display: inline-flex;
+    gap: 8px;
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .frame .group {
+    height: 36px;
+    position: relative;
+    width: 24px;
+  }
+  
+  .frame .vector {
+    height: 14px;
+    position: absolute;
+    top: 11px;
+    width: 8px;
+  }
+  
+  .frame .text-wrapper {
+    color: var(--blackwhiteblack);
+    font-family: "Maven Pro-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.24px;
+    line-height: 36px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }

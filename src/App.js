@@ -7,6 +7,7 @@ import logo from './images/logos/logo.png';
 import Main from "./pages/main";
 import Wallet from "./pages/wallet";
 import Login from "./pages/login";
+import AccountDetails from "./pages/account-details";
 
 
 function App() {
@@ -17,9 +18,11 @@ function App() {
         <Route path="/" element={<Main />} />
         <Route path="/login" element={<Login />} />
         <Route path="/wallet" element={<Wallet />} />
+        <Route path="/account-details" element={<AccountDetails/>}/>
         <Route path="/navbartop" element={<NavbarTop />} />
         <Route path="/navbarbottom" element={<NavbarBottom />} />
         <Route path="/footer" element={<Footer />} />
+
       </Routes>
     </BrowserRouter>
    </>
