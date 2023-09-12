@@ -1,33 +1,29 @@
-
 import React from "react";
-import '../App.css';
-import { Button, Form,Col,Row } from "react-bootstrap";
+import '../login.css';
+import { Button, Form, Col, Row } from "react-bootstrap";
 
 
 const Login = () => {
-    return (
-        <>
-        <Form>
-      <Form.Group as={Row} className="mb-3" controlId="formPlaintextEmail">
-        <Form.Label column sm="2">
-          Email
-        </Form.Label>
-        <Col sm="10">
-          <Form.Control plaintext readOnly defaultValue="email@example.com" />
-        </Col>
-      </Form.Group>
+  return (
+    <>
+      <Form>
+        <Form.Group as={Row} className="mb-3" controlId="formPlaintextEmailAddress">
+            <Col sm="10">
+            <Form.Control type="password" placeholder="Email Address" />
+            </Col>
+        </Form.Group>
+        <Form.Group as={Row} className="mb-3" controlId="formPlaintextPassword">
+            <Col sm="10">
+            <Form.Control type="password" placeholder="Password" />
+            </Col>
+        </Form.Group>
+      </Form>
+      <div className="d-grid gap-2">
+        <Button size="lg">Login</Button>
+        <Button  size="lg">Sign Up</Button>
+    </div>
 
-      <Form.Group as={Row} className="mb-3" controlId="formPlaintextPassword">
-        <Form.Label column sm="2">
-          Password
-        </Form.Label>
-        <Col sm="10">
-          <Form.Control type="password" placeholder="Password" />
-        </Col>
-      </Form.Group>
-    </Form>
-    <Button></Button>
-        </>
+             </>
     )
 }
 

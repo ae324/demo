@@ -1,7 +1,7 @@
 
 import React from "react";
 import '../navbarBottom.css';
-import '../App.css';
+import './App.css';
 import wallet from "../images/icons/wallet-icon.png";
 import loan from "../images/icons/loan-icon.png";
 import cashadvance from "../images/icons/cashadvance-icon.png";

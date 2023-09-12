@@ -4,7 +4,7 @@ import logo from '../images/logos/logo.png';
 import profileIcon from "../images/icons/profile-icon.png"
 import notificationIcon from "../images/icons/notification-icon.png"
 import messageIcon from "../images/icons/message-icon.png"
-import '../App.css';
+import './App.css';
 import { Form, Navbar, Container, Button, NavItem } from "react-bootstrap";
 import NavbarBottom from "./navbarBottom";
 
