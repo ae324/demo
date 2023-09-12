@@ -46,7 +46,7 @@ const Wallet = () => {
     <WalletStack></WalletStack>
       </Container>
       {/* <!--------------------- Bottom Button ---------------------!> */}
-      <Container style={{paddingTop:"30px",paddingBottom:"30px"}}>
+      <Container style={{paddingTop:"30px", paddingBottom:"90px"}}>
         <center>
         <Button  id="addExAccountButton" size="lg" href="/addExternalAccount" style={{backgroundColor:"white", borderColor:"#228800", color:"#228800"}}> Add External Account</Button>
         </center>

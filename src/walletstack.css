@@ -1,6 +1,6 @@
 .box {
-    height: 329px;
-    width: 327px;
+    height: auto;
+    width: auto;
   }
   
   .box .group {
@@ -68,6 +68,7 @@
     overflow: hidden;
     position: absolute;
     top: 76px;
+    font-size: 12px;
   }
   
   .box .text-wrapper {

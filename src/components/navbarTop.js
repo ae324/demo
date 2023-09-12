@@ -33,13 +33,11 @@ const NavbarTop = () => {
                         <img
                             src={messageIcon}
                             width="20"
-
                         />                </NavItem>
                     <NavItem className="ml-auto ">
                         <img
                             src={profileIcon}
                             width="20"
-
                         />
                     </NavItem>
                 </Container>
