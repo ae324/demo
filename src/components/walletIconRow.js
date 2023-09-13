@@ -2,8 +2,7 @@ import React from "react";
 import card1 from "../images/icons/deposit.png";
 import card2 from "../images/icons/findatm.png";
 import card3 from "../images/icons/sendZelle.png";
-import rewardsCard from "../images/icons/rewardsCard.png";
-import { Image, Row, Col, Card, Button, Container, Nav } from "react-bootstrap";
+import { Row, Col, Card,Container} from "react-bootstrap";
 import "../wallet.css";
 import "../App.css";
 

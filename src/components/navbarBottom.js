@@ -21,7 +21,12 @@ const tabs = [{
 
 const NavbarBottom = () => {
     return (
-        <div>       
+        <div>
+          {/* Top Bar*/}
+    <nav className="navbar navbar-expand-md navbar-light sticky-top" role="navigation">
+           ....
+          </nav>
+         
           {/* Bottom Tab Navigator*/}
           <nav className="navbar fixed-bottom navbar-light" role="navigation">
             <Nav className="w-100">

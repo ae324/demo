@@ -8,6 +8,7 @@ import InitialPage from "./pages/initialpage";
 import Wallet from "./pages/wallet";
 import Login from "./pages/login";
 import AccountDetails from "./pages/account-details";
+import RewardsCard from "./components/rewardsCard";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/account-details" element={<AccountDetails/>}/>
         <Route path="/navbartop" element={<NavbarTop />} />
         <Route path="/navbarbottom" element={<NavbarBottom />} />
+        <Route path="/rewardscard" element={<RewardsCard />} />
         <Route path="/footer" element={<Footer />} />
 
       </Routes>
