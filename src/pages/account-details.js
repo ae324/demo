@@ -2,7 +2,8 @@ import React from "react";
 import NavbarTop from "../components/navbarTop";
 import NavbarBottom from "../components/navbarBottom";
 import { Container, Image} from "react-bootstrap";
-import "../account-details.css"
+import "../account-details.css";
+import "../App.css";
 import CreditCard from "../images/credit-card.png";
 const AccountDetails = () => {
     return (

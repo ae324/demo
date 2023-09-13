@@ -6,3 +6,15 @@
   .navbar{
     background-color: white;
   }
+
+.nav-link,
+.bottom-nav-link {
+  color: #5D5D5D;
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: #228800;
+}
+.bottom-tab-label {
+  font-size: 12px;
+}

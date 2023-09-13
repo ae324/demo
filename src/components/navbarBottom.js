@@ -1,21 +1,20 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch, faHome, faUserCircle } from '@fortawesome/free-solid-svg-icons';
+import { faMoneyBill, faWallet, faMoneyCheck } from '@fortawesome/free-solid-svg-icons';
 import { Nav,NavItem,NavLink } from 'react-bootstrap';
 import "../navbarBottom.css"
-
 const tabs = [{
-    route: "/home",
-    icon: faHome,
-    label: "Home"
+    route: "/wallet",
+    icon: faWallet,
+    label: "Wallet"
   },{
     route: "/search",
-    icon: faSearch,
-    label: "Search"
+    icon: faMoneyBill,
+    label: "Cash Advance"
   },{
     route: "/login",
-    icon: faUserCircle,
-    label: "Login"
+    icon: faMoneyCheck,
+    label: "Loan"
   }]
   
 
@@ -23,10 +22,7 @@ const NavbarBottom = () => {
     return (
         <div>
           {/* Top Bar*/}
-    <nav className="navbar navbar-expand-md navbar-light sticky-top" role="navigation">
-           ....
-          </nav>
-         
+
           {/* Bottom Tab Navigator*/}
           <nav className="navbar fixed-bottom navbar-light" role="navigation">
             <Nav className="w-100">
