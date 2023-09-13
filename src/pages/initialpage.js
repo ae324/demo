@@ -7,7 +7,7 @@ import { Row, Col, Button, Container } from "react-bootstrap";
 import '../wallet.css';
 import Wallet from "./wallet";
 
-const Main = () => {
+const InitialPage = () => {
 
     return (
         <>
@@ -17,4 +17,4 @@ const Main = () => {
     )
 }
 
-export default Main;
+export default InitialPage;

@@ -1,23 +1,23 @@
-  .bloc-icon img {
-    width: 100px;
-    background-color: white;
-  
+  @media screen and (min-width: 600px) {
+   .navbar {
+    display: none;
+    }
   }
-  
-  .bloc-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+  .navbar {
     background-color: white;
-  
-  
+    padding-bottom: 20px;
+    padding-right: 10px;
   }
-  .mobile-nav {
-    background-color: white;
-    position: fixed;
-    bottom: 0;
-    height: 65px;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
+  .bottom-tab-nav {
+    border-top: solid 1px #EBEBEB;
   }
+  .nav-link,
+  .bottom-nav-link {
+    color: #55575b;
+  }
+  .nav-link:hover {
+    color: #228800;
+  }
+
+ 

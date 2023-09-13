@@ -1,28 +1,48 @@
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch, faHome, faUserCircle } from '@fortawesome/free-solid-svg-icons';
+import { Nav,NavItem,NavLink } from 'react-bootstrap';
+import "../navbarBottom.css"
 
-import React from "react";
-import '../navbarBottom.css';
-import wallet from "../images/icons/wallet-icon.png";
-import loan from "../images/icons/loan-icon.png";
-import cashadvance from "../images/icons/cashadvance-icon.png";
+const tabs = [{
+    route: "/home",
+    icon: faHome,
+    label: "Home"
+  },{
+    route: "/search",
+    icon: faSearch,
+    label: "Search"
+  },{
+    route: "/login",
+    icon: faUserCircle,
+    label: "Login"
+  }]
+  
 
 const NavbarBottom = () => {
     return (
-        <>
-            <div>
-                <nav class="mobile-nav">
-                    <a href="/wallet" class="bloc-icon">
-                        <img src={wallet} alt=""></img>
-                    </a>
-                    <a href="/cashadvance" class="bloc-icon">
-                        <img src={cashadvance} alt=""></img>
-                    </a>
-                    <a href="/loan" class="bloc-icon">
-                        <img src={loan} alt=""></img>
-                    </a>
-                </nav>
-            </div>
-        </>
-    )
-}
+        <div>       
+          {/* Bottom Tab Navigator*/}
+          <nav className="navbar fixed-bottom navbar-light" role="navigation">
+            <Nav className="w-100">
+              <div className=" d-flex flex-row justify-content-around w-100">
+                {
+                  tabs.map((tab, index) =>(
+                    <NavItem key={`tab-${index}`}>
+                      <NavLink to={tab.route} className="nav-link" activeClassName="active">
+                        <div className="row d-flex flex-column justify-content-center align-items-center">
+                          <FontAwesomeIcon size="lg" icon={tab.icon}/>
+                          <div>{tab.label}</div>
+                        </div>
+                      </NavLink>
+                    </NavItem>
+                  ))
+                }
+              </div>
+            </Nav>
+          </nav>
+        </div>
+      )
+    };
 
 export default NavbarBottom;
