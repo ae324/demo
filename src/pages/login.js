@@ -36,7 +36,7 @@ const Login = () => {
           <Button size="lg" style={{ backgroundColor: "white", border: "1px #048c04 solid", color: "#048c04" }}>Sign Up</Button>
         </div>
       </Container>
-      <Image className="align-bottom" alt="Vector" src="https://c.animaapp.com/rSnSUiym/img/vector.svg"></Image>
+      <Image className="align-bottom image" alt="Vector" src="https://c.animaapp.com/rSnSUiym/img/vector.svg"></Image>
 
     </>
   )
