@@ -1,5 +1,5 @@
 import React from "react";
-import { Image, Row, Col, Card, Button, Container, Nav } from "react-bootstrap";
+import { Button, Container} from "react-bootstrap";
 import "../wallet.css";
 import "../App.css";
 import "../walletstack.css";
