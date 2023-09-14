@@ -8,7 +8,7 @@ import Wallet from "./pages/wallet";
 import Login from "./pages/login";
 import AccountDetails from "./pages/account-details";
 import RewardsCard from "./components/rewardsCard";
-
+import DebitCardAccount from "./pages/debit-card-account";
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<InitialPage />} />
+        <Route path="/debit-card-account" element={<DebitCardAccount />} />
         <Route path="/login" element={<Login />} />
         <Route path="/wallet" element={<Wallet />} />
         <Route path="/account-details" element={<AccountDetails/>}/>
