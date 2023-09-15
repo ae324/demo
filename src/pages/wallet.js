@@ -14,7 +14,7 @@ const Wallet = () => {
     <>
       <Container style={{ paddingTop: "70px", overflow: "scroll", paddingBottom: "100px" }}>
         {/* <!--------------------- Top Nav ---------------------!> */}
-        <NavbarTop></NavbarTop>
+        <NavbarTop />
         {/* <!--------------------- Header Title ---------------------!> */}
         <Container fluid id="welcomeTitle">
           <h1>Welcome back, Mike</h1>
@@ -22,7 +22,7 @@ const Wallet = () => {
         <center>
         <Container >
         {/* <!--------------------- Three Icon Row START ---------------------!> */}
-       <WalletIconRow></WalletIconRow>
+       <WalletIconRow />
        </Container >
        </center>
         {/* <!--------------------- Three Icon Row END---------------------!> */}
